@@ -5,11 +5,11 @@ import App from '../../App'
 
 function Layout() {
   return (
-    <>
+    <div className='font-serif'>
     <Header></Header>
     <App></App>
     <Footer></Footer>
-    </>
+    </div>
   )
 }
 
